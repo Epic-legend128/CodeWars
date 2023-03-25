@@ -1,0 +1,1 @@
+const findStrangeValue = _ => NaN;
