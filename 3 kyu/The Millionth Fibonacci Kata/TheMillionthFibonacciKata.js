@@ -22,6 +22,5 @@ function fib(n) {
   var matrix = [[1n, 1n], [1n, 0n]];
   var exp = n-3n;
   
-  var r = power(matrix, exp);
-  return r[0][0]+r[0][1]+r[1][0]+r[1][1];
+  return power(matrix, exp).flat().reduce((t,x) => t+x, 0n);
 }
