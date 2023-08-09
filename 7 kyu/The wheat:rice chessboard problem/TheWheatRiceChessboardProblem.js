@@ -1,0 +1,1 @@
+const squaresNeeded = grains => grains <= 0 ? 0 : Math.ceil(Math.log(grains+1)/Math.log(2));

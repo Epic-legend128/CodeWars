@@ -1,0 +1,1 @@
+const maxSum = (arr,range) => Math.max(...range.map(x => arr.filter((y,i) => i>=x[0] && i<=x[1]).reduce((x, t) => t+x, 0)));
