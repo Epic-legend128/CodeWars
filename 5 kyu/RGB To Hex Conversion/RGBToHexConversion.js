@@ -1,0 +1,1 @@
+const rgb = (r, g, b) => (((red=(Math.max(Math.min(255, r), 0).toString(16))).length == 1 ? "0"+red : red) + ((green=(Math.max(Math.min(255, g), 0).toString(16))).length == 1 ? "0"+green : green) + ((blue=(Math.max(Math.min(255, b), 0).toString(16))).length == 1 ? "0"+blue : blue)).toUpperCase();

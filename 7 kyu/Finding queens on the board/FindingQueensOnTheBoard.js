@@ -1,0 +1,1 @@
+const queens = n => n <= 2n ? 0n : (n-2n)*(n-1n);

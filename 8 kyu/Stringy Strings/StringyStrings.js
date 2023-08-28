@@ -1,0 +1,1 @@
+const stringy = size => new Array(size).fill(0).map((x, i) => (i%2) ? '0' : '1').join('');

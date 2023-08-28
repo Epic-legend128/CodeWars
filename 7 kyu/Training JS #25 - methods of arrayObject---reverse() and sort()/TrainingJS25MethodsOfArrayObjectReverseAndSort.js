@@ -1,0 +1,1 @@
+const sortIt = arr => [...arr].sort((a, b) => ((ar=arr.filter(x => x==a).length) - (br=arr.filter(x => x==b).length) == 0 ? b-a : ar-br));

@@ -1,0 +1,1 @@
+const tailSwap = arr => arr.map((x, i) => arr[i].replace(/:.*/, arr[(i+1)%2].match(/:.*/)[0]));

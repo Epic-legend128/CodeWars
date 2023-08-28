@@ -1,0 +1,1 @@
+const eliminateUnsetBits = number => Math.pow(2, number.split('').filter(x => x==1).length)-1;

@@ -1,0 +1,1 @@
+const areaOfPolygonInsideCircle = (r, s) => Math.round((s*(r*r * Math.sin(2*Math.PI/s))/2)*1000)/1000;

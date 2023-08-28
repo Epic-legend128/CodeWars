@@ -1,0 +1,1 @@
+const nato = word => word.toUpperCase().split('').map(x => LETTERS[x]).join(' ');
