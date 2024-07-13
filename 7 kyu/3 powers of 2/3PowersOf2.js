@@ -1,0 +1,1 @@
+const threePowers = n => (n <= 2 ? false : n.toString(2).split('').reduce((t, x) => t+parseInt(x), 0) <= 3);
