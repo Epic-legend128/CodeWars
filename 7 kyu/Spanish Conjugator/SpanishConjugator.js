@@ -1,0 +1,1 @@
+const conjugate = verb => ({[verb]: ((s=verb.substring(verb.length-2, verb.length))=='ar'? [(p = verb.substring(0, verb.length-2))+"o", p+"as", p+"a", p+"amos", p+"áis", p+"an"] : s == 'er' ? [(p = verb.substring(0, verb.length-2))+"o", p+"es", p+"e", p+"emos", p+"éis", p+"en"] : [(p=verb.substring(0, verb.length-2))+"o", p+"es", p+"e", p+"imos", p+"ís", p+"en"])});
