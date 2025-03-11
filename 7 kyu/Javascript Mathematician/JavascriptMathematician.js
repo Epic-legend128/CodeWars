@@ -1,0 +1,1 @@
+calculate = (...x) => (...y) => [...y, ...x].reduce((t,a) => t+a, 0);

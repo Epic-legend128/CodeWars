@@ -1,0 +1,1 @@
+const sumtheDifference = eq => ((q=eq.split('').filter(x => x!=' ').join('')).match(/-?[2468]/g)||[]).reduce((t,x) => parseInt(x)+t, 0) - (q.match(/-?[13579]/g)||[]).reduce((t,x) => parseInt(x)+t, 0);
