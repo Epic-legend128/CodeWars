@@ -1,0 +1,1 @@
+SELECT id, name FROM departments WHERE 98<(SELECT MAX(price) FROM sales GROUP BY sales.department_id HAVING sales.department_id=departments.id);
